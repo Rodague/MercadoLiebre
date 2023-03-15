@@ -1,0 +1,139 @@
+
+/* header {  background-color:#EAC926; 
+        size: 100vw;
+        font-family: 'Roboto';
+        margin: 1px;
+        box-sizing: border-box;
+        /* font-size: 15px; 
+        color: #666;
+    }; */
+    header {
+        background-color:#EAC926; 
+            size: 100vw;
+            margin: 1px 1px 0px 0px;
+            box-sizing: border-box;
+    }
+    .logo {
+        padding: 5px;
+        margin: 10px 1px 1px 1px;
+    }
+    .buscar-productos {
+        padding: 5px;
+    }
+    .lupa {
+        padding: 5px;
+    }
+    .menu-hamburgesa {
+        text-align: center;
+        display: block;
+    }
+    
+    .compra-en-cuotas { 
+        font-size: 15px;
+        text-align: center;
+    }  
+    
+    ul {
+        font-size: 12px;
+        color: black;
+      }
+   /* ------------------------------------ */
+    main {
+        background-color: #ebebeb;
+        size: 90%;
+        box-sizing: border-box;
+
+    }
+
+    .titulos {
+        font-size:24px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .caja-productos {
+        border-top:1px solid #ebebeb;
+        text-align: left;
+        margin-left: 5%;
+
+    }
+
+    .articulos {
+        border: 0px solid black;
+        background-color: white;
+        margin: 15px;
+        text-align: center;
+        font-family: 'Roboto';
+
+
+    }
+
+    /* .art-ult {} */
+
+    .precios {
+        font-size:16px};
+    .descuento {
+        font-size: 16px};
+    .descripcion {
+        font-size: 16px};
+    
+
+.pie-de-pagina { 
+    border: 1px solid black;
+    text-align: center;
+} 
+
+
+.logos-pie-paginas {
+    
+    text-align: center;
+}
+
+.copyright {
+    text-align: left;
+}
+
+.item-pie-de-pagina {
+    text-align: center;
+}
+
+.titulos-pie-de-pagina {
+    text-align: center;
+}
+
+/* -----------------media queries */
+
+@media (min-width: 1px) {
+    
+        .descripcion {
+            display: none;
+}
+.listas {
+    display: none;
+
+}
+ }
+
+/* --------------desde 361 ---- TABLETS */
+@media (min-width: 361px) {
+.descripcion {
+    display: contents;
+}
+.listas {
+    display: contents;
+
+}
+}
+
+/* -------------desde 769--- pc */
+
+    @media (min-width: 769px) {
+.menu-hamburgesa {
+    display: none;
+}
+body {
+    box-shadow: 0px 0px 10px rgs(100, 100, 100);
+}
+        
+    } 
+
+
